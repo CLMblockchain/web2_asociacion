@@ -1,7 +1,9 @@
 ---
 import Experience from "../components/Experience.astro";
-import { EXPERIENCE } from "../data/experience";
+import { getExperience } from "../data/experience";
 import ArrowLeft from "../icons/arrow-left.astro";
+
+const EXPERIENCE = await getExperience();
 ---
 
 <input id="experience-drawer" type="checkbox" class="drawer-toggle" />
