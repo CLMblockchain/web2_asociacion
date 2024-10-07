@@ -8,6 +8,6 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro", "src/data/experience.js"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro"],
   "exclude": ["node_modules", "src/libs"]
 }
